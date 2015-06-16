@@ -15,9 +15,9 @@ if ($page != 'index.php') {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
-<meta name="author" content="">
+<meta name="author" content="Oscar Larriega <larriega@gmail.com>">
 <link rel="icon" href="img/favicon.png">
-<title>Cayman - MultiPurpose Template by WowThemes.net</title>
+<title>Gosperu</title>
 <!--Stylesheet-->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/menu.css" rel="stylesheet">
