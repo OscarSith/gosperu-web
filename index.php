@@ -8,7 +8,7 @@
 		<span class="help-block wow zoomIn">
 			Bienvenidos a...... soluciones logísticas para el Comercio Internacional y un importante aliado para sus operaciones de Comercio Exterior.
 		</span>
-		<button type="button" class="btn btn-default wow fadeInLeft">Conversemos</button>
+		<a href="nosotros.php" class="btn btn-default wow fadeInLeft">Conversemos</a>
 	</h1>
 </div>
 <?php include 'tpl/footer.tpl.html' ?>

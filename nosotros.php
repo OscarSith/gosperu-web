@@ -13,15 +13,8 @@
 	</div>
 	<div class="col-md-6 darkbgcolor" style="height:420px;">
 		<h2 class="title">Nosotros</h2>
-		<p>
-			 AC Global Logistic es una empresa peruana, que desde le año 2005 inició sus actividades como agencia de carga internacional, siempre se encuentra en la busqueda de innovación y la mejora continua.
-		</p>
-		<p>A lo largo de su experiencia en el mercado, AC Global Logistic ha logrado diferenciarse, más allá de sus tarifas competitivas, por el trato directo y el buen servicio.</p>
-		<p>La estrecha relación que ha creado con sus clientes ha permitido que la empresa comprenda las necesidades del mercado, ofreciendo siempre una información real y oportuna, que facilite la toma de decisiones de los clientes y fortalezca la confianza.</p>
-		<ul class="unstyle checklist">
-			<li>Responsive Layout</li>
-			<li>Much More </li>
-		</ul>
+		<p>Nuestra empresa, <strong>GRAND OCEAN SHIPPING SAC</strong> es una empresa dedicada a la asesoría y soporte integral en la cadena logística de importación y exportación, tanto en medios marítimos como aéreos, contando con el soporte de nuestra casa matriz Grand Ocean Shipping China LTD. Contamos con departamentos especializados y personal altamente capacitado que brindará todas las herramientas para el manejo de sus cargas, brindando las mejores alternativas y soluciones ante sus requerimientos mediante nuestro valor agregado, el servicio personalizado, brindando la información en el tiempo oportuno. </p>
+		<p>Nuestra relación está basada en la confianza a largo plazo convirtiéndonos en socios estratégicos de las grandes, medianas y pequeñas empresas,  con las cuales trabajamos y brindando propuestas en la cadena logística.</p>
 	</div>
 </section>
 <section>
@@ -29,14 +22,14 @@
 		<div class="text-center center-block" style="width:70%">
 			<br><br>
 			<h3>MISIÓN</h3>
-			<p>Somos una compañia</p>
+			<p>Somos una empresa que se dedica a brindar soluciones y alternativas dentro de la cadena logística, con servicios que cumplen los estándares de calidad, dedicando nuestro esfuerzo y talento hacia nuestros usuarios y colaboradores. </p>
 		</div>
 	</div>
 	<div class="col-md-6" style="height:420px;">
 		<div class="text-center center-block" style="width:70%">
 			<br><br>
 			<h3>VISIÓN</h3>
-			<p>Ser reconocidos como el mejor socio estratégico para la cadena logistica en el Perú</p>
+			<p>Ser reconocidos como una de las mejores empresas por nuestros usuarios cuando busquen una alternativa  para el manejo de sus cargas, aumentando el nivel de calidad. </p>
 		</div>
 	</div>
 </section>
