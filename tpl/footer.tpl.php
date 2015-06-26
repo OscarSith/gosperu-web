@@ -11,7 +11,7 @@
 				</ul>
 				<a href="index.html"><img src="img/logo.png" class="footerlogo wow zoomIn" alt="caymanlogo"></a>
 				<p class="copyright">
-					 &copy; All rights reserved.
+					&copy; All rights reserved.
 				</p>
 			</div>
 		</div>
@@ -24,6 +24,35 @@
 <script src="js/plugins.js"></script>
 <script src="js/animheader.js"></script>
 <script src="js/scripts.js"></script>
+<?php if ($page == 'servicios.php'): ?>
+<script>
+$('#sidebar').affix({
+  offset: {
+    top: 540
+  }
+});
+/* activate scrollspy menu */
+var $body   = $(document.body);
+var navHeight = $('.navbar').outerHeight(true) + 10;
+$body.scrollspy({
+	target: '#leftCol',
+	offset: navHeight
+});
+
+$('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top - 84
+        }, 1000);
+        return false;
+      }
+    }
+});
+</script>
+<?php endif ?>
 </body>
 
 <!-- Mirrored from themepush.com/demo/cayman/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jun 2015 20:57:48 GMT -->

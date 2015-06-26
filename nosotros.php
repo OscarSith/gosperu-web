@@ -18,19 +18,25 @@
 	</div>
 </section>
 <section>
-	<div class="col-md-6" style="height:420px;">
-		<div class="text-center center-block" style="width:70%">
-			<br><br>
+	<div class="col-md-6" style="height:360px;">
+		<div class="text-center center-block feature" style="width:70%">
+			<br>
+			<div class="octa">
+				<i class="fa fa-street-view"></i>
+			</div>
 			<h3>MISIÓN</h3>
 			<p>Somos una empresa que se dedica a brindar soluciones y alternativas dentro de la cadena logística, con servicios que cumplen los estándares de calidad, dedicando nuestro esfuerzo y talento hacia nuestros usuarios y colaboradores. </p>
 		</div>
 	</div>
-	<div class="col-md-6" style="height:420px;">
-		<div class="text-center center-block" style="width:70%">
-			<br><br>
+	<div class="col-md-6" style="height:360px;">
+		<div class="text-center center-block feature" style="width:70%">
+			<br>
+			<div class="octa">
+				<i class="fa fa-ship"></i>
+			</div>
 			<h3>VISIÓN</h3>
 			<p>Ser reconocidos como una de las mejores empresas por nuestros usuarios cuando busquen una alternativa  para el manejo de sus cargas, aumentando el nivel de calidad. </p>
 		</div>
 	</div>
 </section>
-<?php include 'tpl/footer.tpl.html' ?>
+<?php include 'tpl/footer.tpl.php' ?>

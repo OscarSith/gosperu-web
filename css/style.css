@@ -304,7 +304,7 @@ ul.longarrowlist li:before {
 	-moz-transform:rotate(45deg);
 	transform:rotate(45deg);
 	width:60px;
-	left:42.5%;
+	left:45.5%;
 }
 .octa:after {
 	background-color:#20b2aa;
@@ -336,6 +336,9 @@ ul.longarrowlist li:before {
 .feature p {
 	margin-bottom:0;
 }
+.feature h3 {
+	margin-top: 80px
+}
 .feature-content {
 	margin-top:20px;
 }
@@ -363,6 +366,8 @@ ul.longarrowlist li:before {
 	font-size:30px;
 	color:#fff;
 	line-height:60px;
+	z-index: 2;
+	transform: rotate(-45deg);
 }
 .feature.business {
 	text-align:left;

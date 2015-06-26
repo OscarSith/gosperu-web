@@ -21,7 +21,7 @@ if ($page != 'index.php') {
 <!--Stylesheet-->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/menu.css" rel="stylesheet">
-<link href="css/font-awesome.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
 <link href="css/animate.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet"> 
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
@@ -60,10 +60,10 @@ if ($page != 'index.php') {
 								<a href="index.php"><span class="link-item">INICIO</span></a>
 							</li>
 							<li>
-								<a href="nosotros.php"><span class="link-item"> NOSOTROS </span></a>
+								<a href="nosotros.php"><span class="link-item">NOSOTROS</span></a>
 							</li>
 							<li>
-								<a href="#"><span class="link-item">SERVICIOS</span></a>
+								<a href="servicios.php"><span class="link-item">SERVICIOS</span></a>
 							</li>
 							<li>
 								<a href="#"><span class="link-item">CLIENTES</span></a>

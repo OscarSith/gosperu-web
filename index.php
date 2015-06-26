@@ -11,4 +11,4 @@
 		<a href="nosotros.php" class="btn btn-default wow fadeInLeft">Conversemos</a>
 	</h1>
 </div>
-<?php include 'tpl/footer.tpl.html' ?>
+<?php include 'tpl/footer.tpl.index' ?>
