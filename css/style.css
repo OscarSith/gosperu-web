@@ -175,7 +175,7 @@ ul.longarrowlist li:before {
 	-webkit-transform:translate3d(-50%,-50%,0);
 	transform:translate3d(-50%,-50%,0);
 	text-transform:uppercase;
-	font-size:4.2em;
+	font-size:3.9em;
 	letter-spacing:0.1em;
 }
 .main-title .thin {
@@ -2165,7 +2165,7 @@ ul.social-icons li i:hover {
 	font-size:11px;
 }
 .realestateform textarea,.dentalform textarea,.regularform textarea {
-	height:150px;
+	height:110px;
 }
 .realestateform input,.dentalform input,.regularform input,.menuform input {
 	margin-bottom:30px;
@@ -2814,4 +2814,11 @@ ul.countdown li p {
 	height: 200px;
 	margin: 20px auto;
 	width: 250px;
+}
+#map {
+	height: 360px
+}
+#logo {
+	height: 50px;
+	margin-top: 6px;
 }

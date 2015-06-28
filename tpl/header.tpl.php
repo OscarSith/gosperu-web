@@ -48,7 +48,9 @@ if ($page != 'index.php') {
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand large" href="index.php"><img src="img/logo.png" alt="caymanlogo"></a>
+						<a class="navbar-brand large" href="index.php">
+							<img src="img/logo.png" alt="caymanlogo" id="logo">
+						</a>
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> -->
@@ -69,7 +71,7 @@ if ($page != 'index.php') {
 								<a href="#"><span class="link-item">CLIENTES</span></a>
 							</li>
 							<li>
-								<a href="#"><span class="link-item">CONTACTO</span></a>
+								<a href="contacto.php"><span class="link-item">CONTACTO</span></a>
 							</li>
 						</ul>
 						<!-- end .nav .navbar-nav -->

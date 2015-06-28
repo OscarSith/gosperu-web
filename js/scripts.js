@@ -1,19 +1,9 @@
 jQuery(function ($) {
 
-    'use strict';
-	
-// =============================================
-// BEGIN THEME SCRIPTS
-// =============================================
+	'use strict';
 
-	// =============================================
-	// Page Loader
-	// =============================================
 	$('.page-loader').delay(500).fadeOut(500);
-	
-	// =============================================
-	// Smooth Scroll
-	// =============================================
+
 	$(".goscroll").click(function (event) {
 		event.preventDefault();
 		//calculate destination place
@@ -28,11 +18,6 @@ jQuery(function ($) {
 		  scrollTop: dest
 		}, 1000, 'easeOutQuad');
 	});
-
-// =============================================
-// END THEME SCRIPTS
-// =============================================
-	
 });
 
 /*====================================
@@ -92,49 +77,20 @@ if ($('#large-header').length) {
 			// 	$('.collapse.navbar-collapse').toggleClass('in');
 			// });
 		},
-
-
 	};
 
 	RedQ.redQ_init();
 
 })(jQuery);
 
-
-
-
-
-
-
-
- $(document).ready(function() {
-                // $('.navbar-toggle').click(function(e){
-                    
-                //     e.preventDefault();
-                //     $('.collapse.navbar-collapse').addClass('in');
-
-                //     $('body').addClass('mobile-menu-open');
-                //     $('.collapse.navbar-collapse').show().prop('id', 'mobile-menu-wrap');
-                    
-                // });
-
-                // $('.mobile-menu-close').click(function(e){
-                //     e.preventDefault();
-                //     // $('.collapse.navbar-collapse').removeClass('in');
-                //     $('body').removeClass('mobile-menu-open');
-
-                //     // $('.collapse.navbar-collapse').removeClass('in').hide();
-                    
-                // });
+$(document).ready(function() {
 
                 $('.navbar-toggle').click(function(e){
-                            
                     e.preventDefault();
                     $('.collapse.navbar-collapse').addClass('in');
 
                     $('body').addClass('mobile-menu-open');
                     $('.collapse.navbar-collapse').show().prop('id', 'mobile-menu-wrap');
-                    
                 });
 
                 $('.mobile-menu-close').click(function(e){
@@ -142,35 +98,7 @@ if ($('#large-header').length) {
                     // $('.collapse.navbar-collapse').removeClass('in');
                     $('body').removeClass('mobile-menu-open');
 
-                    // $('.collapse.navbar-collapse').removeClass('in').hide();
-                    
                 });
-
-                    // var width = $(window).width();
-                    // console.log('window width: ' + width);
-
-                    // var totalWidth = $('ul.nav').width();
-                    // var listWidth = [];
-                    // var totalListWidth = 0;
-
-                    // $('ul.nav > li').each(function(){
-                    //     totalListWidth = totalListWidth + $(this).outerWidth();
-                    //     listWidth.push($(this).outerWidth());
-                    // });
-
-                    // console.log('Total list width: ' + totalListWidth);
-                    // console.log('list width: ' + listWidth);
-
-                    // console.log('Total width: ' + totalWidth);
-
-                    // if( (totalWidth ) >= width) {
-                    //     $('body').removeClass('mobile-menu-open');
-                    //     $('.collapse.navbar-collapse.in').removeAttr('id');
-                    //     $('.collapse.navbar-collapse.in').removeClass('in');
-                    // } else {
-                    //     $('style').text('@media (min-width:' + width + 'px) {div{ color:red !important; }}');
-                    // }
-
 
                 $( window ).resize(function() {
                     var width = $(window).width();
@@ -179,26 +107,52 @@ if ($('#large-header').length) {
                         $('body').removeClass('mobile-menu-open');
                         $('.collapse.navbar-collapse.in').removeAttr('id');
                         $('.collapse.navbar-collapse.in').removeClass('in');
-                        
                     }
                 });
+});
 
-                
+function init_map()
+{
+	var coordLat = -12.117815;
+	var coordLng = -77.033877;
+	if( jQuery(window).width() < 756 )
+	{
+		delta = 0;
+	}
 
-            });
-			
-			
-			
+	var point = new google.maps.LatLng(coordLat,coordLng);
+	var center = new google.maps.LatLng(coordLat,coordLng);
 
+	var mapOptions = {
+		zoom: 15,
+		center: center,
+		scrollwheel: false,
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
+  var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+  // var image = 'images/gmap_default.png';
+  var beachMarker = new google.maps.Marker({
+  	map: map,
+  	position: point
+  });
+}
+
+if( document.getElementById('map') )
+	{
+		var script = document.createElement('script');
+	 	script.type = 'text/javascript';
+	 	script.src = 'https://maps.googleapis.com/maps/api/js?sensor=false&callback=init_map';
+	 	document.body.appendChild(script);
+ 	}
 // =============================================
 // Animate on Appear
 // =============================================
-	var wow = new WOW(
-	  {
-		boxClass:     'wow',      // animated element css class (default is wow)
-		animateClass: 'animated', // animation css class (default is animated)
-		offset:       10,          // distance to the element when triggering the animation (default is 0)
-		mobile:       false       // trigger animations on mobile devices (true is default)
-	  }
-	);
-	wow.init();
+var wow = new WOW(
+  {
+	boxClass:     'wow',      // animated element css class (default is wow)
+	animateClass: 'animated', // animation css class (default is animated)
+	offset:       10,          // distance to the element when triggering the animation (default is 0)
+	mobile:       false       // trigger animations on mobile devices (true is default)
+  }
+);
+wow.init();

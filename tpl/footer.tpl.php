@@ -52,6 +52,8 @@ $('a[href*=#]:not([href=#])').click(function() {
     }
 });
 </script>
+<?php elseif ($page == 'contacto.php') : ?>
+<script src="js/contact.js"></script>
 <?php endif ?>
 </body>
 
