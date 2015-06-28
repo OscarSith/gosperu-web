@@ -39,12 +39,12 @@ if (!empty($json)) {
 
 		$mail->From = $params['email'];
 		$mail->FromName = $params['name'];
-		$mail->addAddress('centrocv@outlook.com', 'Centrocardiovascular');
+		$mail->addAddress('gerardo@nosilenceperu.com', 'Gosperu');
 		// $mail->addCC($params['email'], $params['name']);
-		$mail->addReplyTo('no-reply@centrocardiovascular.com.pe', 'Centrocardiovascular');
+		$mail->addReplyTo('no-reply@gosperu.com.pe', 'Gosperu');
 
 		$mail->isHTML(true);
-		$mail->Subject = 'Mensaje enviado desde la web de centrocardiovascular';
+		$mail->Subject = 'Mensaje enviado desde la web de gosperu.com';
 		$mail->Body = '<h2>De: ' . $params['name'] . '</h2><p>' . nl2br($params['comment']) . '</p>';
 
 		if( $mail->send() ) {
