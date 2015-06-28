@@ -8,37 +8,36 @@ $('#contactform').on('submit', function (e) {
 	var comment = $this.children('textarea[name=comment]');
 	var returnError = false;
 
-	//Simple validation to make sure user entered something
-	//Add your own error checking here with JS, but also do some error checking with PHP.
-	//If error found, add hightlight class to the text field
-	// if (name.val()=='') {
-	// 	name.addClass('error');
-	// 	returnError = true;
-	// } else name.removeClass('error');
+	if (name.val()=='') {
+		name.addClass('error');
+		returnError = true;
+	} else name.removeClass('error');
 	
-	// if (email.val()=='') {
-	// 	email.addClass('error');
-	// 	returnError = true;
-	// } else email.removeClass('error');
+	if (email.val()=='') {
+		email.addClass('error');
+		returnError = true;
+	} else email.removeClass('error');
 
-	// if(!regx.test(email.val())){
- //      email.addClass('error');
- //      returnError = true;
-	// } else email.removeClass('error');
+	if(!regx.test(email.val())){
+      email.addClass('error');
+      returnError = true;
+	} else email.removeClass('error');
 
-	// if (comment.val()=='') {
-	// 	comment.addClass('error');
-	// 	returnError = true;
-	// } else comment.removeClass('error');
+	if (comment.val()=='') {
+		comment.addClass('error');
+		returnError = true;
+	} else comment.removeClass('error');
 	
 	// Highlight all error fields, then quit.
 	if(returnError == true) {
 		return false;
 	}
 
-	var data = { name: name.val(), email: email.val(), comment: encodeURIComponent(comment.val()) };
+	var data = { name: name.val(), email: email.val(), comment: comment.val() };
 
 	$this.find(':input').prop('disabled', true);
+	$this.find(':input:last').val('Enviando...');
+	$('.done, .msg_errors').fadeOut('fast');
 	$('.loading').show();
 	$.ajax({
 		url: "send.php",
@@ -54,7 +53,6 @@ $('#contactform').on('submit', function (e) {
 				$errors.append(input);
 			});
 		} else {
-			$('.done, .msg_errors').fadeOut('fast');
 			if (rec.load) {
 				$('.done').fadeIn('slow');
 				$('#msg_success').html(rec.success);
@@ -66,5 +64,6 @@ $('#contactform').on('submit', function (e) {
 		}
 	}).always(function() {
 		$this.find(':input').prop('disabled', false);
+		$this.find(':input:last').val('Enviar');
 	});
 });

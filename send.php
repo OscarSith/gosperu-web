@@ -47,7 +47,7 @@ if (!empty($json)) {
 		$mail->Subject = 'Mensaje enviado desde la web de centrocardiovascular';
 		$mail->Body = '<h2>De: ' . $params['name'] . '</h2><p>' . $params['comment'] . '</p>';
 
-		if( ! $mail->send() ) {
+		if( $mail->send() ) {
 			$json = array('load' => true, 'success' => 'Su mensaje ha sido enviado, Gracias!');
 		} else {
 			$json = array('load' => false, 'error' => '<li>Lo sentimos, ocurrió un error inesperado. Intentelo de nuevo mas tarde.</li>');
