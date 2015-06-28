@@ -30,7 +30,7 @@ if (!empty($json)) {
 	try {
 		$mail->isSMTP();
 		$mail->SMTPAuth = true;
-		$mail->Host = 'localhost';
+		$mail->Host = 'smtp.mandrillapp.com';
 		$mail->SMTPSecure = 'tls';
 		$mail->Username = 'larriega@gmail.com';
 		$mail->Password = '';
@@ -45,7 +45,7 @@ if (!empty($json)) {
 
 		$mail->isHTML(true);
 		$mail->Subject = 'Mensaje enviado desde la web de centrocardiovascular';
-		$mail->Body = '<h2>De: ' . $params['name'] . '</h2><p>' . $params['comment'] . '</p>';
+		$mail->Body = '<h2>De: ' . $params['name'] . '</h2><p>' . nl2br($params['comment']) . '</p>';
 
 		if( $mail->send() ) {
 			$json = array('load' => true, 'success' => 'Su mensaje ha sido enviado, Gracias!');
