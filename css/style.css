@@ -2812,8 +2812,7 @@ ul.countdown li p {
 #img-logo-nosotros {
 	display: block;
 	height: 200px;
-	margin: 20px auto;
-	width: 250px;
+	margin: 20px auto 0px;
 }
 #map {
 	height: 360px

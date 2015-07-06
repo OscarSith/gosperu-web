@@ -1,14 +1,39 @@
 <?php include 'tpl/header.tpl.php' ?>
-<section class="parallax parallax-image" style="background-image:url(assets/img/demo/random2.jpg);">
-	<div class="wrapsection">
-		<div class="overlay" style="background:#303543;opacity:0.4;"></div>
-		<div class="container">
-			<div class="parallax-content">
-				<div class="block2 text-center max80" style="padding:130px 0;color:#fff;">
-					<h2>
-						<span class="text2 big wow zoomIn transformnone" data-wow-delay="0.4s" data-wow-duration="2s">TRANSPORTE INTERNACIONAL DE CARGA MARÍTIMA Y AÉREA</span>
-					</h2>
+<section>
+	<div class="cayman-slider">
+		<div class="item">
+			<div style="background-image:url('img/servicios/TRANSPORTE DE CARGA INTERNACIONAL MARITIMA Y AEREA.jpg');background-size:cover;height:700px;">
+				<div class="slider_overlay">
 				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+							<!-- Slider content starts-->
+							<div class="slider-content-style1">
+								<h2>
+									<span class="text2 big wow zoomIn transformnone" data-wow-delay="0.4s" data-wow-duration="2s">TRANSPORTE INTERNACIONAL DE CARGA MARÍTIMA Y AÉREA</span>
+								</h2>
+							</div>
+							<!-- Slider content ends-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<div style="background-image:url('img/servicios/TRANSPORTE DE CARGA INTERNACIONAL FCL, LCL Y CARGA SUELTA.jpg');background-size:cover;height:700px;">
+			</div>
+		</div>
+		<div class="item">
+			<div style="background-image:url('img/servicios/ASESORIA DE COMERCIO EXTERIOR.jpg');background-size:cover;height:700px;">
+			</div>
+		</div>
+		<div class="item">
+			<div style="background-image:url('img/servicios/SERVICIO LOGISTICO DE IMPORTACION Y EXPORTACION.jpg');background-size:cover;height:700px;">
+			</div>
+		</div>
+		<div class="item">
+			<div style="background-image:url('img/servicios/TRAZABILIDAD DE LOS EMBARQUES.jpg');background-size:cover;height:700px;">
 			</div>
 		</div>
 	</div>
@@ -24,7 +49,7 @@
 					<li><a href="#sec1">Transporte de carga internacional FCL, LCL y carga suelta</a></li>
 					<li><a href="#sec2">Asesoría de Comercio Exterior</a></li>
 					<li><a href="#sec3">Servicio Logístico de Importación y Exportación</a></li>
-					<li><a href="#sec4">5. Changing Colors</a></li>
+					<li><a href="#sec4">Trazabilidad de los embarques</a></li>
 				</ul>
 			</div>
 			<!--/left-->
@@ -35,18 +60,21 @@
 					<p>
 						 Grand Ocean Shipping SAC brinda el servicio de importación y exportación, tanto marítima como aérea, contando con una red de agentes a nivel mundial, los cuales brindarán un soporte eficiente y profesional, contando como principal tráfico la ruta de Asia, ya que contamos con nuestra casa matriz GRAND OCEAN SHIPPING LTD.
 					</p>
+					<img src="img/servicios/TRANSPORTE DE CARGA INTERNACIONAL MARITIMA Y AEREA.jpg" alt="" class="img-responsive">
 				</div>
 				<h3 id="sec1">Transporte de carga internacional FCL, LCL y carga suelta</h3>
 				<div class="content">
 					<p>
 						 Grand Ocean Shipping SAC brinda el servicio de carga en contenedores FCL, carga consolidada y carga suelta.
 					</p>
+					<img src="img/servicios/TRANSPORTE DE CARGA INTERNACIONAL FCL, LCL Y CARGA SUELTA.jpg" alt="" class="img-responsive">
 				</div>
 				<h3 id="sec2">Asesoría de Comercio Exterior</h3>
 				<div class="content">
 					<p>
 						Grand Ocean Shipping SAC brinda asesoría a nuestros clientes, brindando información  acerca del conjunto de procesos que intervienen en la cadena logística, permitiendo que cada uno de ellos realice sus operaciones a tiempo, generando una mayor rentabilidad y contribuyendo al crecimiento de las mismas.
 					</p>
+					<img src="img/servicios/ASESORIA DE COMERCIO EXTERIOR.jpg" alt="" class="img-responsive">
 				</div>
 				<h3 id="sec3">Servicio Logístico de Importación y Exportación</h3>
 				<div class="content">
@@ -59,12 +87,14 @@
 						<li>Distribución.</li>
 						<li>Aduanas.</li>
 					</ul>
+					<img src="img/servicios/SERVICIO LOGISTICO DE IMPORTACION Y EXPORTACION.jpg" alt="" class="img-responsive">
 				</div>
 				<h3 id="sec4">Trazabilidad de los embarques</h3>
 				<div class="content">
 					<p>
 						Grand Ocean Shipping SAC no solo le brindará el seguimiento y status de los embarques, sino que tiene un equipo especializado en la trazabilidad de los mismos, el cual va a permitir dar una solución ate un problema que pueda suscitarse en la cadena logística.
 					</p>
+					<img src="img/servicios/TRAZABILIDAD DE LOS EMBARQUES.jpg" alt="" class="img-responsive">
 				</div>
 			</div>
 			<!--/right-->

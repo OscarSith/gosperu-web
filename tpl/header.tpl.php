@@ -2,15 +2,13 @@
 $url = explode('/', $_SERVER['PHP_SELF']);
 $page = array_pop($url);
 $class = '';
-if ($page != 'index.php') {
+if ($page != 'index.php' && $page != 'servicios.php') {
 	$class = 'on';
 }
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from themepush.com/demo/cayman/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jun 2015 20:56:12 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -68,7 +66,7 @@ if ($page != 'index.php') {
 								<a href="servicios.php"><span class="link-item">SERVICIOS</span></a>
 							</li>
 							<li>
-								<a href="#"><span class="link-item">CLIENTES</span></a>
+								<a href="puertos.php"><span class="link-item">PRINCIPALES PUERTOS</span></a>
 							</li>
 							<li>
 								<a href="contacto.php"><span class="link-item">CONTACTO</span></a>

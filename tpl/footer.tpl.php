@@ -22,39 +22,89 @@
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/plugins.js"></script>
+<script src="js/parallax.js"></script>
 <script src="js/animheader.js"></script>
-<script src="js/scripts.js"></script>
 <?php if ($page == 'servicios.php'): ?>
 <script>
-$('#sidebar').affix({
-  offset: {
-    top: 540
-  }
-});
-/* activate scrollspy menu */
-var $body   = $(document.body);
-var navHeight = $('.navbar').outerHeight(true) + 10;
-$body.scrollspy({
-	target: '#leftCol',
-	offset: navHeight
-});
-
-$('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top - 84
-        }, 1000);
-        return false;
-      }
+  $('#sidebar').affix({
+    offset: {
+      top: 540
     }
-});
+  });
+  /* activate scrollspy menu */
+  var $body   = $(document.body);
+  var navHeight = $('.navbar').outerHeight(true) + 10;
+  $body.scrollspy({
+  	target: '#leftCol',
+  	offset: navHeight
+  });
+
+  $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top - 84
+          }, 1000);
+          return false;
+        }
+      }
+  });
+  $(".cayman-slider").owlCarousel({
+    navigation : false, // Show next and prev buttons
+    slideSpeed : 600,
+    pagination : false,
+    autoHeight:false,
+    autoPlay:true,
+    addClassActive : true,
+    navigationText: false,
+    transitionStyle : "fade",
+    singleItem:true
+    // "singleItem:true" is a shortcut for:
+    // items : 1, 
+    // itemsDesktop : false,
+    // itemsDesktopSmall : false,
+    // itemsTablet: false,
+    // itemsMobile : false
+  });
 </script>
 <?php elseif ($page == 'contacto.php') : ?>
 <script src="js/contact.js"></script>
+<?php elseif ($page == 'puertos.php') : ?>
+<script src='js/countto.js'></script>
+<script>
+  $('.gallery').featherlightGallery({
+    gallery: {
+      fadeIn: 0,
+      fadeOut: 0
+    },
+    openSpeed:    500,
+    closeSpeed:   500
+  });
+
+  $(".carouselany").owlCarousel({
+      navigation : false, // Show next and prev buttons
+      slideSpeed : 400,
+      pagination : true,
+      autoHeight:false,
+      autoPlay:true,
+      addClassActive : true,
+      navigationText: false,
+        singleItem:true
+        // "singleItem:true" is a shortcut for:
+        // items : 1, 
+        // itemsDesktop : false,
+        // itemsDesktopSmall : false,
+        // itemsTablet: false,
+        // itemsMobile : false
+  });
+
+  // Para que al cargar la web se ejecute el countTo
+  $('.counter').scroll()
+</script>
 <?php endif ?>
+<script src="js/scripts.js"></script>
 </body>
 
 <!-- Mirrored from themepush.com/demo/cayman/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jun 2015 20:57:48 GMT -->

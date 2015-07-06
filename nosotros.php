@@ -3,11 +3,11 @@
 	<div class="container">
 		<br><br>
 		<h1 class="title text-center">BIENVENIDOS A</h1>
-		<img src="#" alt="Logo en nosotros" id="img-logo-nosotros">
+		<img src="img/logo_nosotros.png" alt="Logo en nosotros" id="img-logo-nosotros">
 	</div>
 </section>
 <section class="split">
-	<div class="col-md-6" style="height:420px;background-size:cover;background-image:url(img/demo/3.jpg);">
+	<div class="col-md-6" style="height:420px;background-size:cover;background-image:url(img/nosotros.jpg);">
 		<div class="overlay" style="background:#303543;opacity:0.4;">
 		</div>
 	</div>
