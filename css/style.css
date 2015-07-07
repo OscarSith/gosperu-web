@@ -2821,3 +2821,7 @@ ul.countdown li p {
 	height: 50px;
 	margin-top: 6px;
 }
+.carouselany p {
+	text-align: center;
+	margin-top: 10px;
+}

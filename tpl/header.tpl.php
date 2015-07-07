@@ -2,7 +2,7 @@
 $url = explode('/', $_SERVER['PHP_SELF']);
 $page = array_pop($url);
 $class = '';
-if ($page != 'index.php' && $page != 'servicios.php') {
+if ($page != 'index.php') {
 	$class = 'on';
 }
 ?>

@@ -52,15 +52,15 @@
       }
   });
   $(".cayman-slider").owlCarousel({
-    navigation : false, // Show next and prev buttons
+    navigation : false,
     slideSpeed : 600,
     pagination : false,
     autoHeight:false,
-    autoPlay:true,
+    autoPlay: true,
     addClassActive : true,
     navigationText: false,
     transitionStyle : "fade",
-    singleItem:true
+    singleItem: true
     // "singleItem:true" is a shortcut for:
     // items : 1, 
     // itemsDesktop : false,
