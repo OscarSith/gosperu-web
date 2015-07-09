@@ -3,15 +3,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<ul class="social-icons">
+				<!-- <ul class="social-icons">
 					<li class="wow bounceIn animated" data-wow-delay="0.1s"><a href="#."><i class="fa fa-facebook"></i></a></li>
 					<li class="wow bounceIn animated" data-wow-delay="0.2s"><a href="#."><i class="fa fa-twitter"></i></a></li>
 					<li class="wow bounceIn animated" data-wow-delay="0.3s"><a href="#."><i class="fa fa-google-plus"></i></a></li>
 					<li class="wow bounceIn animated" data-wow-delay="0.5s"><a href="#."><i class="fa fa-pinterest"></i></a></li>
-				</ul>
-				<a href="index.html"><img src="img/logo.png" class="footerlogo wow zoomIn" alt="caymanlogo"></a>
+				</ul> -->
+				<!-- <a href="index.html"><img src="img/logo.png" class="footerlogo wow zoomIn" alt="caymanlogo"></a> -->
 				<p class="copyright">
-					&copy; All rights reserved.
+					&copy; GOSPERU - All rights reserved <?php echo date('Y') ?>
 				</p>
 			</div>
 		</div>
@@ -85,15 +85,15 @@
 
   $(".carouselany").owlCarousel({
       navigation : false, // Show next and prev buttons
-      slideSpeed : 400,
+      slideSpeed : 800,
       pagination : true,
       autoHeight:false,
       autoPlay:true,
       addClassActive : true,
       navigationText: false,
-        singleItem:true
+        singleItem:true,
         // "singleItem:true" is a shortcut for:
-        // items : 1, 
+        // items : 2, 
         // itemsDesktop : false,
         // itemsDesktopSmall : false,
         // itemsTablet: false,

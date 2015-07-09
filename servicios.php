@@ -1,5 +1,5 @@
 <?php include 'tpl/header.tpl.php' ?>
-<section>
+<section style="margin-top:63px">
 	<div class="cayman-slider">
 		<div class="item">
 			<div style="background-image:url('img/servicios/TRANSPORTE DE CARGA INTERNACIONAL MARITIMA Y AEREA.jpg');background-size:cover;height:420px;">

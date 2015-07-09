@@ -26,14 +26,14 @@ p:last-child {
 	margin-bottom:0;
 }
 .accentbgcolor {
-	background:#20b2aa;
+	background:#2D97CF;
 	color:#fff;
 }
 .accentcolor {
-	color:#20b2aa;
+	color:#2D97CF;
 }
 a {
-	color:#20b2aa;
+	color:#2D97CF;
 }
 .w960 {
 	max-width:960px;
@@ -140,7 +140,7 @@ ul.longarrowlist li:before {
 	margin-right:5px;
 }
 .unstyle li:before {
-	color: #20b2aa;
+	color: #2D97CF;
 }
 .darkbgcolor ul.checklist li:before {
 	color:#fff;
@@ -219,8 +219,8 @@ ul.longarrowlist li:before {
 }
 .btn-primary {
 	color:#fff;
-	background-color:#20b2aa;
-	border-color:#20b2aa;
+	background-color:#2D97CF;
+	border-color:#2D97CF;
 }
 .btn-primary:hover,.btn-default:hover {
 	background-color:#303543;
@@ -297,26 +297,19 @@ ul.longarrowlist li:before {
 /* Features List */
 /*=========================*/
 .octa {
-	height:60px;
-	overflow:hidden;
 	position:absolute;
-	-webkit-transform:rotate(45deg);
-	-moz-transform:rotate(45deg);
-	transform:rotate(45deg);
 	width:60px;
 	left:45.5%;
 }
 .octa:after {
-	background-color:#20b2aa;
+	background-color:#2D97CF;
 	bottom:0;
 	content:'';
 	left:0;
 	position:absolute;
 	right:0;
 	top:0;
-	-webkit-transform:rotate(45deg);
-	-moz-transform:rotate(45deg);
-	transform:rotate(45deg);
+	border-radius: 50%
 }
 .octa.blue:after {
 	background:#3b579d;
@@ -329,6 +322,7 @@ ul.longarrowlist li:before {
 }
 .feature {
 	text-align:center;
+	padding-top: 65px
 }
 .feature:nth-child(-n+3) {
 	margin-bottom:20px
@@ -337,7 +331,9 @@ ul.longarrowlist li:before {
 	margin-bottom:0;
 }
 .feature h3 {
-	margin-top: 80px
+	color: #2D97CF;
+	font-weight: bold;
+	margin-top: 80px;
 }
 .feature-content {
 	margin-top:20px;
@@ -351,7 +347,7 @@ ul.longarrowlist li:before {
 	margin-right:25px;
 	width:60px;
 	height:60px;
-	background-color:#20b2aa;
+	background-color:#2D97CF;
 	border-radius:50%;
 	vertical-align:top;
 	text-align:center;
@@ -367,13 +363,12 @@ ul.longarrowlist li:before {
 	color:#fff;
 	line-height:60px;
 	z-index: 2;
-	transform: rotate(-45deg);
 }
 .feature.business {
 	text-align:left;
 }
 .feature.business i {
-	color:#20b2aa;
+	color:#2D97CF;
 	position:absolute;
 	left:15px;
 	font-size:24px;
@@ -438,7 +433,7 @@ ul.longarrowlist li:before {
 	display:block;
 	height:1px;
 	width:40px;
-	background-color:#20b2aa;
+	background-color:#2D97CF;
 	margin:15px auto 10px auto;
 	-webkit-animation:title-border .5s ease-in;
 	-moz-animation:title-border .5s ease-in;
@@ -611,8 +606,8 @@ input.contact {
 }
 .portfolio-filter-list a.active {
 	border-width:1px;
-	background-color:#20b2aa;
-	border-color:#20b2aa;
+	background-color:#2D97CF;
+	border-color:#2D97CF;
 	color:#ffffff;
 }
 .portfolio-items {
@@ -678,7 +673,7 @@ input.contact {
 	border-bottom:1px solid;
 	border-width:1px;
 	border-style:solid;
-	border-color: #20b2aa;
+	border-color: #2D97CF;
 	content:' ';
 	width:180px;
 	display:block;
@@ -785,7 +780,7 @@ input.contact {
 	width:36px;
 	margin:7px 0 7px 20px;
 	clear:both;
-	background-color:#20b2aa;
+	background-color:#2D97CF;
 }
 .team-boxes .team_quote p {
 	font-size:14px;
@@ -1034,7 +1029,7 @@ ul .tline-holder>li {
 	padding-top:12px;
 	width:40px;
 	height:40px;
-	background-color:#20b2aa;
+	background-color:#2D97CF;
 	border-radius:100%;
 	-moz-border-radius:100%;
 	-webkit-border-radius:100%;
@@ -1080,7 +1075,7 @@ ul .tline-holder>li {
 }
 .funfacts .counter {
 	font-size:60px;
-	 color:#20b2aa;
+	 color:#2D97CF;
 	 font-weight:700;
 }
 .funfacts h4 {
@@ -1265,7 +1260,7 @@ ul.social-icons li i:hover {
 	display:block;
 	font-weight:700;
 	padding:18px 40px 18px 30px;
-	background-color:#20b2aa;
+	background-color:#2D97CF;
 	color:#fff !important;
 }
 .panel-title>a:after {
@@ -1283,7 +1278,7 @@ ul.social-icons li i:hover {
 	background-color:#414141;
 }
 .panel-title>a.collapsed:hover {
-	background-color:#20b2aa;
+	background-color:#2D97CF;
 }
 .panel-title>a.collapsed:after {
 	content:'+';
@@ -1392,8 +1387,8 @@ ul.social-icons li i:hover {
 .nav-tabs>li.active>a,.nav-tabs>li.active>a:hover {
 	border-left:0;
 	border-bottom:1px solid;
-	border-color:#20b2aa;
-	background-color:#20b2aa;
+	border-color:#2D97CF;
+	background-color:#2D97CF;
 	color: #fff;
 }
 /*=========================*/
@@ -1432,9 +1427,9 @@ ul.social-icons li i:hover {
 	position:relative;
 }
 .block1 .btn.color {
-	background-color:#20b2aa;
+	background-color:#2D97CF;
 	border:1px solid;
-	border-color:#20b2aa;
+	border-color:#2D97CF;
 	color:#fff;
 }
 .block2,.block2 h2,.block2 h3,.block2 h4,.block2 h1,.block2 h5 {
@@ -2117,7 +2112,7 @@ ul.social-icons li i:hover {
 .thumbbox1 h3 {
 	font-size:16px;
 	text-transform:uppercase;
-	background-color:#20b2aa;
+	background-color:#2D97CF;
 	padding:13px 20px;
 	color:#fff;
 	margin-top:0;
@@ -2183,7 +2178,7 @@ ul.social-icons li i:hover {
 }
 .dentalform {
 	padding:30px;
-	background-color:#20b2aa;
+	background-color:#2D97CF;
 	margin-bottom:30px;
 }
 .dentalform .btn,.regularform .btn {
@@ -2197,7 +2192,7 @@ ul.social-icons li i:hover {
 /* Login & Register */
 /*=========================*/
 .lrform {
-	background-color:#20b2aa;
+	background-color:#2D97CF;
 	margin:25px auto;
 	width:353px;
 	min-height:400px;
@@ -2423,7 +2418,7 @@ ul.countdown li p {
 	background-color:#f2f2f2;
 	border-left-width:6px;
 	border-style:solid;
-	border-color:#20b2aa;
+	border-color:#2D97CF;
 	padding:15px 30px;
 	font-size:17px;
 	margin-bottom:0;
@@ -2465,7 +2460,7 @@ ul.countdown li p {
 .wow-pricing-table>div.featured {
 }
 .wow-pricing-table>div.featured .wow-pricing-header {
-	background-color:#20b2aa;
+	background-color:#2D97CF;
 }
 .wow-pricing-table:hover {
 	margin-top:-5px;
@@ -2528,7 +2523,7 @@ ul.countdown li p {
 	padding:12px 22px 14px;
 }
 .featured .wow-pricing-per,.featured .wow-pricing-cost,.featured .wow-pricing-button .wow-button,.buttoncolor {
-	background-color: #20b2aa;
+	background-color: #2D97CF;
 }
 /*=========================*/
 /* Panel */
@@ -2633,7 +2628,7 @@ ul.countdown li p {
 					transition:all 0.1s ease-in;
 	}
 	.redq .columns ul a:hover,ul.sub-menu a:hover,.redq a:hover {
-						color:#20b2aa;
+						color:#2D97CF;
 						background:#303543;
 						-webkit-transition:all 0.1s ease-in;
 					 -moz-transition:all 0.1s ease-in;
@@ -2824,4 +2819,7 @@ ul.countdown li p {
 .carouselany p {
 	text-align: center;
 	margin-top: 10px;
+}
+.fade-menu {
+	background-color: rgba(0, 0, 0, 0.24) !important
 }

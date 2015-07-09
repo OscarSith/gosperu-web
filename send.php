@@ -39,7 +39,7 @@ if (!empty($json)) {
 
 		$mail->From = $params['email'];
 		$mail->FromName = $params['name'];
-		$mail->addAddress('gerardo@nosilenceperu.com', 'Gosperu');
+		$mail->addAddress('kferreyros@gosperu.com', 'Gosperu');
 		// $mail->addCC($params['email'], $params['name']);
 		$mail->addReplyTo('no-reply@gosperu.com.pe', 'Gosperu');
 

@@ -2,8 +2,11 @@
 $url = explode('/', $_SERVER['PHP_SELF']);
 $page = array_pop($url);
 $class = '';
+$fadeMenu = '';
 if ($page != 'index.php') {
 	$class = 'on';
+} else {
+	$fadeMenu = 'fade-menu';
 }
 ?>
 <!DOCTYPE html>
@@ -33,7 +36,7 @@ if ($page != 'index.php') {
 	<img src="img/loader.gif" alt="">
 </div>
 <header id="header">
-	<div id="mega-menu" class="header header-sticky primary-menu icons-no default-skin fadeInUp align-right <?php echo $class ?>">
+	<div id="mega-menu" class="header header-sticky primary-menu icons-no default-skin fadeInUp align-right <?php echo $class . ' ' . $fadeMenu ?>">
 		<div class="container">
 			<div class="row">
 				<nav class="navbar navbar-default redq" role="navigation">

@@ -34,14 +34,14 @@
 			<address>
 				<ul class="list-unstyled">
 					<li>
-						<i class="fa fa-map-marker fa-lg"></i> la dirección - Lima
+						<i class="fa fa-map-marker fa-lg"></i> Cal. Martín de Murúa 250 Of. 201 San Miguel - Lima, Perú
 						<br><br>
 					</li>
 					<li>
 						<i class="fa fa-phone fa-lg"></i> 008 010 100
 						<br><br>
 					</li>
-					<li><i class="fa fa-envelope"></i> correo-electronico@gosperu.com</li>
+					<li><i class="fa fa-envelope"></i> comercial@gosperu.com</li>
 				</ul>
 			</address>
 		</div>
