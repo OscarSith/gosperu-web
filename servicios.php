@@ -3,12 +3,9 @@
 	<div class="cayman-slider">
 		<div class="item">
 			<div style="background-image:url('img/servicios/TRANSPORTE DE CARGA INTERNACIONAL MARITIMA Y AEREA.jpg');background-size:cover;height:420px;">
-				<div class="slider_overlay">
-				</div>
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-							<!-- Slider content starts-->
 							<div class="slider-content-style1">
 								<h2>
 									<span class="text2 big wow zoomIn transformnone" data-wow-delay="0.4s" data-wow-duration="2s">TRANSPORTE INTERNACIONAL DE CARGA MARÍTIMA Y AÉREA</span>
