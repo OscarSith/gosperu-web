@@ -1,5 +1,5 @@
 <?php include 'tpl/header.tpl.php' ?>
-<section id="progress" style="margin-top: 62px;background-image:url(img/bg_header_puertos.jpg)" class="parallax parallax-image">
+<section id="progress" style="margin-top: 62px;background-image:url(img/bg_header_puertos.jpg)">
 	<div class="wrapsection">
 		<div class="container">
 			<div class="parallax-content">
@@ -46,25 +46,25 @@
 						<a href="img/ASIA/BUSAN-COREA.jpg" class="gallery">
 							<img src="img/ASIA/BUSAN-COREA.jpg" alt=""/>
 						</a>
-						<p>BUSAN COREA</p>
+						<p>Busan - COREA</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/delian-china.jpg">
 							<img src="img/ASIA/delian-china.jpg" alt=""/>
 						</a>
-						<p>Delian CHINA</p>
+						<p>Delian - CHINA</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/Fuzhou-china.jpg">
 							<img src="img/ASIA/Fuzhou-china.jpg" alt=""/>
 						</a>
-						<p>Fuzhou CHINA</p>
+						<p>Fuzhou - CHINA</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/Guangzhou-china.jpg">
 							<img src="img/ASIA/Guangzhou-china.jpg" alt=""/>
 						</a>
-						<p>Guangzhou CHINA</p>
+						<p>Guangzhou - CHINA</p>
 					</article>
 				</div>
 				<div class="item">
@@ -72,25 +72,25 @@
 						<a class="gallery" href="img/ASIA/Hong-Kong-china.jpg">
 							<img src="img/ASIA/Hong-Kong-china.jpg" alt=""/>
 						</a>
-						<p>Hong Kong CHINA</p>
+						<p>Hong Kong - CHINA</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/Huangpu-china.jpg">
 							<img src="img/ASIA/Huangpu-china.jpg" alt=""/>
 						</a>
-						<p>Huangpu CHINA</p>
+						<p>Huangpu - CHINA</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/Ningbo-china.jpg">
 							<img src="img/ASIA/Ningbo-china.jpg" alt=""/>
 						</a>
-						<p>Ningbo CHINA</p>
+						<p>Ningbo - CHINA</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/Qingdao-china.jpg">
 							<img src="img/ASIA/Qingdao-china.jpg" alt=""/>
 						</a>
-						<p>Qingdao CHINA</p>
+						<p>Qingdao - CHINA</p>
 					</article>
 				</div>
 				<div class="item">
@@ -98,39 +98,39 @@
 						<a class="gallery" href="img/ASIA/shangai-china.jpg">
 							<img src="img/ASIA/shangai-china.jpg" alt=""/>
 						</a>
-						<p>Shangai CHINA</p>
+						<p>Shangai - CHINA</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/Shantou-china.jpg">
 							<img src="img/ASIA/Shantou-china.jpg" alt=""/>
 						</a>
-						<p>Shantou CHINA</p>
+						<p>Shantou - CHINA</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/Shenzhen-china.jpg">
 							<img src="img/ASIA/Shenzhen-china.jpg" alt=""/>
 						</a>
-						<p>Shenzhen CHINA</p>
+						<p>Shenzhen - CHINA</p>
 					</article>
-				</div>
-				<div class="item">
 					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/Tianjin-china.jpg">
 							<img src="img/ASIA/Tianjin-china.jpg" alt=""/>
 						</a>
-						<p>Tianjin china</p>
+						<p>Tianjin - CHINA</p>
 					</article>
+				</div>
+				<div class="item">
 					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/Xiamen-china.jpg">
 							<img src="img/ASIA/Xiamen-china.jpg" alt=""/>
 						</a>
-						<p>Xiamen china</p>
+						<p>Xiamen - CHINA</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/Yantian-china.jpg">
 							<img src="img/ASIA/Yantian-china.jpg" alt=""/>
 						</a>
-						<p>Yantian china</p>
+						<p>Yantian - CHINA</p>
 					</article>
 				</div>
 			</div>
@@ -274,16 +274,16 @@
 						<p>Itajai - BRASIL</p>
 					</article>
 					<article class="col-md-3">
-						<a class="gallery" href="img/SUR AMERICA/Rio-de-Janeiro-BRASIL.jpg">
-							<img src="img/SUR AMERICA/Rio-de-Janeiro-BRASIL.jpg" alt=""/>
-						</a>
-						<p>Rio de Janeiro - BRASIL</p>
-					</article>
-					<article class="col-md-3">
 						<a class="gallery" href="img/SUR AMERICA/Rio-Grande-BRASIL.jpg">
 							<img src="img/SUR AMERICA/Rio-Grande-BRASIL.jpg" alt=""/>
 						</a>
 						<p>Rio Grande - BRASIL</p>
+					</article>
+					<article class="col-md-3">
+						<a class="gallery" href="img/SUR AMERICA/Valparaiso-CHILE.jpg">
+							<img src="img/SUR AMERICA/Valparaiso-CHILE.jpg" alt=""/>
+						</a>
+						<p>Valparaiso - CHILE</p>
 					</article>
 				</div>
 				<div class="item">
@@ -297,7 +297,7 @@
 						<a class="gallery" href="img/SUR AMERICA/San-Vicente-CHILE.jpg">
 							<img src="img/SUR AMERICA/San-Vicente-CHILE.jpg" alt=""/>
 						</a>
-						<p>San Vicente - CHILE </p>
+						<p>San Vicente - CHILE</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/SUR AMERICA/Santos-BRASIL.jpg">
@@ -310,14 +310,6 @@
 							<img src="img/SUR AMERICA/Suape-BRASIL.jpg" alt=""/>
 						</a>
 						<p>Suape - BRASIL</p>
-					</article>
-				</div>
-				<div class="item">
-					<article class="col-md-3">
-						<a class="gallery" href="img/SUR AMERICA/Valparaiso-CHILE.jpg">
-							<img src="img/SUR AMERICA/Valparaiso-CHILE.jpg" alt=""/>
-						</a>
-						<p>Valparaiso - CHILE</p>
 					</article>
 				</div>
 			</div>
