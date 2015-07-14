@@ -133,7 +133,7 @@ a:hover {
       border-bottom: 0px solid transparent; }
       /* line 232, ../sass/style.scss */
       .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-        color: #20b2aa; }
+        color: #2D97CF; }
   /* line 241, ../sass/style.scss */
   .navbar-default .navbar-nav > .open > a {
     color: #575757;
@@ -159,7 +159,7 @@ a:hover {
   color: #575757; }
   /* line 275, ../sass/style.scss */
   .redq a:hover {
-    color: #20b2aa; }
+    color: #2D97CF; }
 /* line 279, ../sass/style.scss */
 .redq .thumbnails {
   padding: 20px !important; }
@@ -532,7 +532,8 @@ ul.sub-menu > li.menu-item > ul.sub-menu {
 
   /* line 61, ../sass/responsive.scss */
   .header.icons-no .nav > li > a .link-item {
-    float: left; }
+    float: left;
+    color: #2D97CF;}
   /* line 72, ../sass/responsive.scss */
   .header.icons-left .nav > li > a > i {
     display: block;
@@ -702,13 +703,13 @@ ul#color-skins input[type="radio"] {
   /* line 33, ../sass/menu-settings.scss */
   .default-skin.header {
     background: #FFF;
-    border-color: #20b2aa transparent #ebebeb; }
+    border-color: #2D97CF transparent #ebebeb; }
   /* line 37, ../sass/menu-settings.scss */
   .default-skin .navbar-default .navbar-toggle .icon-bar {
-    background: #20b2aa; }
+    background: #2D97CF; }
   /* line 40, ../sass/menu-settings.scss */
   .default-skin .nav .open > a, .default-skin .nav .open > a:hover, .default-skin .nav .open > a:focus {
-    border-color: #20b2aa; }
+    border-color: #2D97CF; }
   /* line 43, ../sass/menu-settings.scss */
   .default-skin ul.sub-menu li {
     border-top: 1px solid #ebebeb;
@@ -2846,278 +2847,6 @@ html.mm-opening .mm-menu.mm-front, html.mm-opening .mm-menu.mm-next {
   min-height: 140px;
   max-height: 880px; }
 
-/*
-	jQuery.mmenu themes extension CSS
-*/
-/* line 886, ../sass/jquery.mmenu.all.scss */
-html.mm-opened.mm-light .mm-page {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
-
-/* line 889, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-light {
-  background: #f3f3f3;
-  color: rgba(0, 0, 0, 0.6); }
-
-/* line 892, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-light .mm-list > li:after {
-  border-color: rgba(0, 0, 0, 0.1); }
-
-/* line 894, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-light .mm-list > li > a.mm-subclose {
-  background: rgba(255, 255, 255, 0.6);
-  color: rgba(0, 0, 0, 0.3); }
-
-/* line 897, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-light .mm-list > li > a.mm-subopen:after, .mm-menu.mm-light .mm-list > li > a.mm-subclose:before {
-  border-color: rgba(0, 0, 0, 0.3); }
-
-/* line 899, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-light .mm-list > li > a.mm-subopen:before {
-  border-color: rgba(0, 0, 0, 0.1); }
-
-/* line 901, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-light .mm-list > li.mm-selected > a:not(.mm-subopen),
-.mm-menu.mm-light .mm-list > li.mm-selected > span {
-  background: rgba(255, 255, 255, 0.6); }
-
-/* line 904, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-light .mm-list > li.mm-label {
-  background: rgba(0, 0, 0, 0.03); }
-
-/* line 906, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-light.mm-vertical .mm-list li.mm-opened > a.mm-subopen,
-.mm-menu.mm-light.mm-vertical .mm-list li.mm-opened > ul {
-  background: rgba(0, 0, 0, 0.03); }
-
-/* line 910, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-light label.mm-check:before {
-  border-color: rgba(0, 0, 0, 0.3); }
-
-/* line 912, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-light input.mm-check:checked ~ label.mm-check:before {
-  border-color: rgba(0, 0, 0, 0.6); }
-
-/* line 915, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-light em.mm-counter {
-  color: rgba(0, 0, 0, 0.3); }
-
-/* line 918, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-light .mm-header {
-  border-color: rgba(0, 0, 0, 0.1);
-  color: rgba(0, 0, 0, 0.3); }
-
-/* line 921, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-light .mm-header .mm-prev:before,
-.mm-menu.mm-light .mm-header .mm-next:after {
-  border-color: rgba(0, 0, 0, 0.3); }
-
-/* line 925, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-light .mm-list li.mm-label > div > div {
-  background: rgba(0, 0, 0, 0.03); }
-
-/* line 928, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-light .mm-search input {
-  background: rgba(0, 0, 0, 0.1);
-  color: rgba(0, 0, 0, 0.6); }
-
-/* line 931, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-light .mm-noresultsmsg {
-  color: rgba(0, 0, 0, 0.3); }
-
-/* line 934, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-light label.mm-toggle {
-  background: rgba(0, 0, 0, 0.1); }
-
-/* line 936, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-light label.mm-toggle:before {
-  background: #f3f3f3; }
-
-/* line 938, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-light input.mm-toggle:checked ~ label.mm-toggle {
-  background: #4bd963; }
-
-/* line 941, ../sass/jquery.mmenu.all.scss */
-html.mm-opened.mm-white .mm-page {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
-
-/* line 944, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-white {
-  background: white;
-  color: rgba(0, 0, 0, 0.6); }
-
-/* line 947, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-white .mm-list > li:after {
-  border-color: rgba(0, 0, 0, 0.1); }
-
-/* line 949, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-white .mm-list > li > a.mm-subclose {
-  background: rgba(0, 0, 0, 0.06);
-  color: rgba(0, 0, 0, 0.3); }
-
-/* line 952, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-white .mm-list > li > a.mm-subopen:after, .mm-menu.mm-white .mm-list > li > a.mm-subclose:before {
-  border-color: rgba(0, 0, 0, 0.3); }
-
-/* line 954, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-white .mm-list > li > a.mm-subopen:before {
-  border-color: rgba(0, 0, 0, 0.1); }
-
-/* line 956, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-white .mm-list > li.mm-selected > a:not(.mm-subopen),
-.mm-menu.mm-white .mm-list > li.mm-selected > span {
-  background: rgba(0, 0, 0, 0.06); }
-
-/* line 959, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-white .mm-list > li.mm-label {
-  background: rgba(0, 0, 0, 0.03); }
-
-/* line 961, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-white.mm-vertical .mm-list li.mm-opened > a.mm-subopen,
-.mm-menu.mm-white.mm-vertical .mm-list li.mm-opened > ul {
-  background: rgba(0, 0, 0, 0.03); }
-
-/* line 965, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-white label.mm-check:before {
-  border-color: rgba(0, 0, 0, 0.3); }
-
-/* line 967, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-white input.mm-check:checked ~ label.mm-check:before {
-  border-color: rgba(0, 0, 0, 0.6); }
-
-/* line 970, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-white em.mm-counter {
-  color: rgba(0, 0, 0, 0.3); }
-
-/* line 973, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-white .mm-header {
-  border-color: rgba(0, 0, 0, 0.1);
-  color: rgba(0, 0, 0, 0.3); }
-
-/* line 976, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-white .mm-header .mm-prev:before,
-.mm-menu.mm-white .mm-header .mm-next:after {
-  border-color: rgba(0, 0, 0, 0.3); }
-
-/* line 980, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-white .mm-list li.mm-label > div > div {
-  background: rgba(0, 0, 0, 0.03); }
-
-/* line 983, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-white .mm-search input {
-  background: rgba(0, 0, 0, 0.1);
-  color: rgba(0, 0, 0, 0.6); }
-
-/* line 986, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-white .mm-noresultsmsg {
-  color: rgba(0, 0, 0, 0.3); }
-
-/* line 989, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-white label.mm-toggle {
-  background: rgba(0, 0, 0, 0.1); }
-
-/* line 991, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-white label.mm-toggle:before {
-  background: white; }
-
-/* line 993, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-white input.mm-toggle:checked ~ label.mm-toggle {
-  background: #4bd963; }
-
-/* line 996, ../sass/jquery.mmenu.all.scss */
-html.mm-opened.mm-black .mm-page {
-  box-shadow: none; }
-
-/* line 999, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-black {
-  background: black;
-  color: rgba(255, 255, 255, 0.6); }
-
-/* line 1002, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-black .mm-list > li:after {
-  border-color: rgba(255, 255, 255, 0.2); }
-
-/* line 1004, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-black .mm-list > li > a.mm-subclose {
-  background: rgba(255, 255, 255, 0.25);
-  color: rgba(255, 255, 255, 0.3); }
-
-/* line 1007, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-black .mm-list > li > a.mm-subopen:after, .mm-menu.mm-black .mm-list > li > a.mm-subclose:before {
-  border-color: rgba(255, 255, 255, 0.3); }
-
-/* line 1009, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-black .mm-list > li > a.mm-subopen:before {
-  border-color: rgba(255, 255, 255, 0.2); }
-
-/* line 1011, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-black .mm-list > li.mm-selected > a:not(.mm-subopen),
-.mm-menu.mm-black .mm-list > li.mm-selected > span {
-  background: rgba(255, 255, 255, 0.25); }
-
-/* line 1014, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-black .mm-list > li.mm-label {
-  background: rgba(255, 255, 255, 0.15); }
-
-/* line 1016, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-black.mm-vertical .mm-list li.mm-opened > a.mm-subopen,
-.mm-menu.mm-black.mm-vertical .mm-list li.mm-opened > ul {
-  background: rgba(255, 255, 255, 0.15); }
-
-/* line 1020, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-black label.mm-check:before {
-  border-color: rgba(255, 255, 255, 0.3); }
-
-/* line 1022, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-black input.mm-check:checked ~ label.mm-check:before {
-  border-color: rgba(255, 255, 255, 0.6); }
-
-/* line 1025, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-black em.mm-counter {
-  color: rgba(255, 255, 255, 0.3); }
-
-/* line 1028, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-black .mm-header {
-  border-color: rgba(255, 255, 255, 0.2);
-  color: rgba(255, 255, 255, 0.3); }
-
-/* line 1031, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-black .mm-header .mm-prev:before,
-.mm-menu.mm-black .mm-header .mm-next:after {
-  border-color: rgba(255, 255, 255, 0.3); }
-
-/* line 1035, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-black .mm-list li.mm-label > div > div {
-  background: rgba(255, 255, 255, 0.15); }
-
-/* line 1038, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-black .mm-search input {
-  background: rgba(255, 255, 255, 0.3);
-  color: rgba(255, 255, 255, 0.6); }
-
-/* line 1041, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-black .mm-noresultsmsg {
-  color: rgba(255, 255, 255, 0.3); }
-
-/* line 1044, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-black label.mm-toggle {
-  background: rgba(255, 255, 255, 0.2); }
-
-/* line 1046, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-black label.mm-toggle:before {
-  background: black; }
-
-/* line 1048, ../sass/jquery.mmenu.all.scss */
-.mm-menu.mm-black input.mm-toggle:checked ~ label.mm-toggle {
-  background: #4bd963; }
-  
-  
-  
-  
-  
-  
-  
-  
-  
  /* line 2, ../sass/extends.scss */
 a.mobile-menu-close {
   display: none; }
@@ -3244,7 +2973,7 @@ a.mobile-menu-close {
     z-index: 9999;
     cursor: pointer;
     padding: 13px;
-    width: 46px;
+    width: 60px;
     text-align: center; }
 
   /* line 125, ../sass/extends.scss */

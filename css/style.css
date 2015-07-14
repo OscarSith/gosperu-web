@@ -1074,7 +1074,7 @@ ul .tline-holder>li {
 }
 .funfacts .counter {
 	font-size:60px;
-	color:#fff;
+	color:#2D97CF;
 	font-weight:700;
 }
 .funfacts h4 {
@@ -1082,7 +1082,8 @@ ul .tline-holder>li {
 	font-size:14px;
 	margin:22px 0 0px;
 	position:relative;
-	color: #ccc;
+	color: #2D97CF;
+	font-weight: bold;
 }
 /*=========================*/
 /* Footer */
@@ -2773,6 +2774,11 @@ ul.countdown li p {
 @media (max-width: 767px){
 	.mobile-menu-open ul.sub-menu li a {
 	  font-size:12px;
+	}
+	#logo {
+		height: auto !important;
+		margin-top: 18px !important;
+		width: 230px;
 	}
 }
 

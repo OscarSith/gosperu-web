@@ -1,13 +1,13 @@
 <?php
 $url = explode('/', $_SERVER['PHP_SELF']);
 $page = array_pop($url);
-$class = '';
-$fadeMenu = '';
-if ($page != 'index.php') {
-	$class = 'on';
-} else {
-	$fadeMenu = 'fade-menu';
-}
+// $class = '';
+// $fadeMenu = '';
+// if ($page != 'index.php') {
+// 	$class = 'on';
+// } else {
+// 	$fadeMenu = 'fade-menu';
+// }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -36,7 +36,7 @@ if ($page != 'index.php') {
 	<img src="img/loader.gif" alt="">
 </div>
 <header id="header">
-	<div id="mega-menu" class="header header-sticky primary-menu icons-no default-skin fadeInUp align-right <?php echo $class . ' ' . $fadeMenu ?>">
+	<div id="mega-menu" class="header header-sticky primary-menu icons-no default-skin fadeInUp align-right on">
 		<div class="container">
 			<div class="row">
 				<nav class="navbar navbar-default redq" role="navigation">
@@ -56,7 +56,9 @@ if ($page != 'index.php') {
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> -->
 					<div class="collapse navbar-collapse">
-						<a class="navbar-brand mobile pull-left" href="#"><i class="fa fa-diamond"></i> Cayma<span class="logo-style">N</span></a>
+						<a class="navbar-brand mobile pull-left" href="#">
+							<img src="img/logo_nosotros.png" style="width: 156px;">
+						</a>
 						<a class="mobile-menu-close"><i class="fa fa-random"></i></a>
 						<ul class="nav navbar-nav nav-list">
 							<li>

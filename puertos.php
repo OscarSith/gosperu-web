@@ -1,5 +1,5 @@
 <?php include 'tpl/header.tpl.php' ?>
-<section id="progress" style="margin-top: 50px;background-image:url(img/bg_header_puertos.jpg)" class="parallax parallax-image">
+<section id="progress" style="margin-top: 62px;background-image:url(img/bg_header_puertos.jpg)" class="parallax parallax-image">
 	<div class="wrapsection">
 		<div class="container">
 			<div class="parallax-content">
@@ -10,7 +10,7 @@
 								<i class="fa fa-fighter-jet"></i>
 							</div>
 							<h2 class="counter" data-from="0" data-to="134" data-speed="2500"></h2>
-							<h4>TRANSLADOS AÉREOS</h4>
+							<h4>TRASLADOS AÉREOS</h4>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -36,7 +36,7 @@
 		</div>
 	</div>
 </section>
-<section class="page-wrapper">
+<section class="page-wrapper gray">
 	<div class="container">
 		<h2 class="title">ASIA</h2>
 		<div class="row tagline">
@@ -143,7 +143,7 @@
 		</div>
 	</div>
 </section>
-<section class="page-wrapper">
+<section class="page-wrapper gray">
 	<div class="container">
 		<h2 class="title">EUROPA</h2>
 		<div class="row tagline">
@@ -186,7 +186,7 @@
 		</div>
 	</div>
 </section>
-<section class="page-wrapper">
+<section class="page-wrapper gray">
 	<div class="container">
 		<h2 class="title">NORTE AMERICA</h2>
 		<div class="row tagline">
@@ -235,7 +235,7 @@
 		</div>
 	</div>
 </section>
-<section class="page-wrapper">
+<section class="page-wrapper gray">
 	<div class="container">
 		<h2 class="title">SUR AMERICA</h2>
 		<div class="row tagline">

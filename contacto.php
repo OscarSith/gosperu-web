@@ -38,10 +38,10 @@
 						<br><br>
 					</li>
 					<li>
-						<i class="fa fa-phone fa-lg"></i> 008 010 100
+						<i class="fa fa-phone fa-lg"></i> 00 511 451 8301
 						<br><br>
 					</li>
-					<li><i class="fa fa-envelope"></i> comercial@gosperu.com</li>
+					<li><i class="fa fa-envelope"></i> info@gosperu.com</li>
 				</ul>
 			</address>
 		</div>
