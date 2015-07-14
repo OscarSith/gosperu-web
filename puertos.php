@@ -19,7 +19,7 @@
 								<i class="fa fa-ship"></i>
 							</div>
 							<h2 class="counter" data-from="0" data-to="392" data-speed="2500"></h2>
-							<h4>TRANSLADOS MARÍTIMOS</h4>
+							<h4>TRASLADOS MARÍTIMOS</h4>
 						</div>
 					</div>
 					<div class="col-md-4">
