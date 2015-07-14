@@ -52,19 +52,19 @@
 						<a class="gallery" href="img/ASIA/delian-china.jpg">
 							<img src="img/ASIA/delian-china.jpg" alt=""/>
 						</a>
-						<p>delian china</p>
+						<p>Delian CHINA</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/Fuzhou-china.jpg">
 							<img src="img/ASIA/Fuzhou-china.jpg" alt=""/>
 						</a>
-						<p>Fuzhou china</p>
+						<p>Fuzhou CHINA</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/Guangzhou-china.jpg">
 							<img src="img/ASIA/Guangzhou-china.jpg" alt=""/>
 						</a>
-						<p>Guangzhou china</p>
+						<p>Guangzhou CHINA</p>
 					</article>
 				</div>
 				<div class="item">
@@ -72,51 +72,45 @@
 						<a class="gallery" href="img/ASIA/Hong-Kong-china.jpg">
 							<img src="img/ASIA/Hong-Kong-china.jpg" alt=""/>
 						</a>
-						<p>Hong Kong china</p>
+						<p>Hong Kong CHINA</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/Huangpu-china.jpg">
 							<img src="img/ASIA/Huangpu-china.jpg" alt=""/>
 						</a>
-						<p>Huangpu china</p>
+						<p>Huangpu CHINA</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/Ningbo-china.jpg">
 							<img src="img/ASIA/Ningbo-china.jpg" alt=""/>
 						</a>
-						<p>Ningbo china</p>
+						<p>Ningbo CHINA</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/Qingdao-china.jpg">
 							<img src="img/ASIA/Qingdao-china.jpg" alt=""/>
 						</a>
-						<p>Qingdao china</p>
+						<p>Qingdao CHINA</p>
 					</article>
 				</div>
 				<div class="item">
 					<article class="col-md-3">
-						<a class="gallery" href="img/ASIA/Rotterdam-HOLOANDA.jpg">
-							<img src="img/ASIA/Rotterdam-HOLOANDA.jpg" alt=""/>
-						</a>
-						<p>Rotterdam - HOLOANDA</p>
-					</article>
-					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/shangai-china.jpg">
 							<img src="img/ASIA/shangai-china.jpg" alt=""/>
 						</a>
-						<p>shangai china</p>
+						<p>Shangai CHINA</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/Shantou-china.jpg">
 							<img src="img/ASIA/Shantou-china.jpg" alt=""/>
 						</a>
-						<p>Shantou china</p>
+						<p>Shantou CHINA</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/Shenzhen-china.jpg">
 							<img src="img/ASIA/Shenzhen-china.jpg" alt=""/>
 						</a>
-						<p>Shenzhen china</p>
+						<p>Shenzhen CHINA</p>
 					</article>
 				</div>
 				<div class="item">
@@ -251,13 +245,13 @@
 						<a class="gallery" href="img/SUR AMERICA/Buenaventura-COLOMBIA.jpg">
 							<img src="img/SUR AMERICA/Buenaventura-COLOMBIA.jpg" alt=""/>
 						</a>
-						<p>Buenaventura- COLOMBIA</p>
+						<p>Buenaventura - COLOMBIA</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/SUR AMERICA/Cartagena-COLOMBIA.jpg">
 							<img src="img/SUR AMERICA/Cartagena-COLOMBIA.jpg" alt=""/>
 						</a>
-						<p>Cartagena-COLOMBIA</p>
+						<p>Cartagena - COLOMBIA</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/SUR AMERICA/Guayaquil-ECUADOR.jpg">
