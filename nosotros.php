@@ -8,8 +8,6 @@
 </section>
 <section class="split">
 	<div class="col-md-6" style="height:420px;background-size:cover;background-image:url(img/nosotros.jpg);">
-		<div class="overlay" style="background:#303543;opacity:0.4;">
-		</div>
 	</div>
 	<div class="col-md-6 darkbgcolor" style="height:420px;">
 		<h2 class="title">Nosotros</h2>
@@ -37,6 +35,10 @@
 			<h3>VISIÓN</h3>
 			<p>Ser reconocidos como una de las mejores empresas por nuestros usuarios cuando busquen una alternativa  para el manejo de sus cargas, aumentando el nivel de calidad. </p>
 		</div>
+	</div>
+</section>
+<section id="progress" style="height: 450px;background-image:url(img/bg_footer_nosotros.jpg)" class="parallax parallax-image">
+	<div class="wrapsection">
 	</div>
 </section>
 <?php include 'tpl/footer.tpl.php' ?>

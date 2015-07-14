@@ -1,8 +1,6 @@
 <?php include 'tpl/header.tpl.php' ?>
-<section id="progress" style="margin-top: 50px;"><!-- class="parallax parallax-image" style="background-image:url(assets/img/demo/count.jpg);" -->
+<section id="progress" style="margin-top: 50px;background-image:url(img/bg_header_puertos.jpg)" class="parallax parallax-image">
 	<div class="wrapsection">
-		<div class="overlay" style="background:#303543;opacity:0.8;">
-		</div>
 		<div class="container">
 			<div class="parallax-content">
 				<div class="row">
@@ -41,7 +39,7 @@
 <section class="page-wrapper">
 	<div class="container">
 		<h2 class="title">ASIA</h2>
-		<div class="row">
+		<div class="row tagline">
 			<div class="carouselany">
 				<div class="item">
 					<article class="col-md-3">
@@ -148,7 +146,7 @@
 <section class="page-wrapper">
 	<div class="container">
 		<h2 class="title">EUROPA</h2>
-		<div class="row">
+		<div class="row tagline">
 			<div class="carouselany">
 				<div class="item">
 					<article class="col-md-3">
@@ -191,7 +189,7 @@
 <section class="page-wrapper">
 	<div class="container">
 		<h2 class="title">NORTE AMERICA</h2>
-		<div class="row">
+		<div class="row tagline">
 			<div class="carouselany">
 				<div class="item">
 					<article class="col-md-3">
@@ -240,7 +238,7 @@
 <section class="page-wrapper">
 	<div class="container">
 		<h2 class="title">SUR AMERICA</h2>
-		<div class="row">
+		<div class="row tagline">
 			<div class="carouselany">
 				<div class="item">
 					<article class="col-md-3">

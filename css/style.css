@@ -418,7 +418,6 @@ ul.longarrowlist li:before {
 	letter-spacing:1px;
 	text-transform:uppercase;
 	font-weight:300;
-	text-align:center;
 	margin:0 0 20px 0;
 }
 .page-wrapper .tagline {
@@ -431,10 +430,10 @@ ul.longarrowlist li:before {
 .page-wrapper .tagline:before {
 	content:'';
 	display:block;
-	height:1px;
-	width:40px;
+	height:2px;
+	width:80px;
 	background-color:#2D97CF;
-	margin:15px auto 10px auto;
+	margin:0 0 20px 13px;
 	-webkit-animation:title-border .5s ease-in;
 	-moz-animation:title-border .5s ease-in;
 	-o-animation:title-border .5s ease-in;
@@ -1069,14 +1068,14 @@ ul .tline-holder>li {
 	border-radius:50%;
 	margin-bottom:10px;
 	clear:both;
-	color:#ccc;
+	color:#fff;
 	border:0;
-	 background:rgba(0,0,0,0.2);
+	background:rgba(0,0,0,0.2);
 }
 .funfacts .counter {
 	font-size:60px;
-	 color:#2D97CF;
-	 font-weight:700;
+	color:#fff;
+	font-weight:700;
 }
 .funfacts h4 {
 	text-transform:uppercase;
