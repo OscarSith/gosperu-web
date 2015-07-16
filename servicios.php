@@ -84,7 +84,7 @@
 				<h3 id="sec4">Trazabilidad de los embarques</h3>
 				<div class="content">
 					<p>
-						Grand Ocean Shipping SAC no solo le brindará el seguimiento y status de los embarques, sino que tiene un equipo especializado en la trazabilidad de los mismos, el cual va a permitir dar una solución ate un problema que pueda suscitarse en la cadena logística.
+						Grand Ocean Shipping SAC no solo le brindará el seguimiento y status de los embarques, sino que tiene un equipo especializado en la trazabilidad de los mismos, el cual va a permitir dar una solución ante un problema que pueda suscitarse en la cadena logística.
 					</p>
 				</div>
 			</div>
