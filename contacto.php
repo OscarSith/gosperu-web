@@ -6,7 +6,7 @@
 	<div class="container">
 		<div class="col-sm-7">
 			<div class="regularform onwhite w680 wow flipInY text-center">
-				<h4><b>ENVÍAMOS UN MENSAJE</b></h4>
+				<h4><b><?= $text['form_title'] ?></b></h4>
 				<br/>
 				<div class="done">
 					<div class="alert alert-success">
@@ -21,15 +21,15 @@
 					</div>
 				</div>
 				<form method="post" id="contactform">
-					<input name="name" type="text" class="col-sm-12" placeholder="NOMBRE Y APELLIDO">
-					<input name="email" type="email" class="col-sm-12" placeholder="CORREO ELECTRÓNICO">
-					<textarea name="comment" class="col-sm-12" placeholder="MENSAJE"></textarea>
-					<input type="submit" id="submit" class="contact submit btn btn-minimal" style="margin-top:30px;background-color:#fff;" value="ENVIAR">
+					<input name="name" type="text" class="col-sm-12" placeholder="<?= $text['name'] ?>">
+					<input name="email" type="email" class="col-sm-12" placeholder="<?= $text['mail'] ?>">
+					<textarea name="comment" class="col-sm-12" placeholder="<?= $text['message'] ?>"></textarea>
+					<input type="submit" id="submit" class="contact submit btn btn-minimal" style="margin-top:30px;background-color:#fff;" value="<?= $text['send'] ?>">
 				</form>
 			</div>
 		</div>
 		<div class="col-sm-5">
-			<h4><b>DETALLES DE CONTACTO</b></h4>
+			<h4><b><?= $text['form_title_right'] ?></b></h4>
 			<br>
 			<address>
 				<ul class="list-unstyled">

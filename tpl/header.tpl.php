@@ -1,13 +1,10 @@
 <?php
 $url = explode('/', $_SERVER['PHP_SELF']);
 $page = array_pop($url);
-// $class = '';
-// $fadeMenu = '';
-// if ($page != 'index.php') {
-// 	$class = 'on';
-// } else {
-// 	$fadeMenu = 'fade-menu';
-// }
+
+include 'language.php';
+
+$text = $lang[ $arr[0] ];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -62,20 +59,25 @@ $page = array_pop($url);
 						<a class="mobile-menu-close"><i class="fa fa-random"></i></a>
 						<ul class="nav navbar-nav nav-list">
 							<li>
-								<a href="index.php"><span class="link-item">INICIO</span></a>
+								<a href="index.php"><span class="link-item"><?= $text['home'] ?></span></a>
 							</li>
 							<li>
-								<a href="nosotros.php"><span class="link-item">NOSOTROS</span></a>
+								<a href="nosotros.php"><span class="link-item"><?= $text['us'] ?></span></a>
 							</li>
 							<li>
-								<a href="servicios.php"><span class="link-item">SERVICIOS</span></a>
+								<a href="servicios.php"><span class="link-item"><?= $text['service'] ?></span></a>
 							</li>
 							<li>
-								<a href="puertos.php"><span class="link-item">PRINCIPALES PUERTOS</span></a>
+								<a href="puertos.php"><span class="link-item"><?= $text['ports'] ?></span></a>
 							</li>
 							<li>
-								<a href="contacto.php"><span class="link-item">CONTACTO</span></a>
+								<a href="contacto.php"><span class="link-item"><?= $text['contact'] ?></span></a>
 							</li>
+							<?php if ($arr[0] == 'es'): ?>
+	                            <li><a href="?lang=en"><span class="link-item"><i class="fa fa-language fa-lg"></i> Inglés</span></a></li>
+	                        <?php else: ?>
+	                            <li><a href="?lang=es"><span class="link-item"><i class="fa fa-language fa-lg"></i> <?php echo $text['lang_es'] ?></span></a></li>
+	                        <?php endif ?>
 						</ul>
 						<!-- end .nav .navbar-nav -->
 					</div>

@@ -34,54 +34,54 @@ Fixed Header
 // 	});
 // }
 
-(function($) {
-	"use strict";
+// (function($) {
+// 	"use strict";
 
-	// var easing = 'jswing';
+// 	// var easing = 'jswing';
 
-	var RedQ = {
+// 	var RedQ = {
 
-		redQ_init : function() {
-			// RedQ.redQ_nav_hover();
-			RedQ.redQ_small_submenu();
-			// RedQ.redQ_navbar_toggle();
-		},
+// 		redQ_init : function() {
+// 			// RedQ.redQ_nav_hover();
+// 			RedQ.redQ_small_submenu();
+// 			// RedQ.redQ_navbar_toggle();
+// 		},
 
-		// redQ_nav_hover : function() {
-		// 	$('.dropdown').on('mouseenter', function() {
-		// 		var self = $(this);
+// 		// redQ_nav_hover : function() {
+// 		// 	$('.dropdown').on('mouseenter', function() {
+// 		// 		var self = $(this);
 
-		// 		self.find('.dropdown-menu').stop().slideDown(300, easing);
-		// 	});
+// 		// 		self.find('.dropdown-menu').stop().slideDown(300, easing);
+// 		// 	});
 
-		// 	$('.dropdown').on('mouseleave', function() {
-		// 		var self = $(this);
+// 		// 	$('.dropdown').on('mouseleave', function() {
+// 		// 		var self = $(this);
 
-		// 		self.find('.dropdown-menu').stop().slideUp(300, easing);
-		// 	});
-		// },
-		redQ_small_submenu: function() {
-			var sel = $('li.dropdown ul.sub-menu li.dropdown');
-			sel.addClass('has-caret');
-			sel.append('<span class="sub-caret fa fa-caret-right"></span>');
+// 		// 		self.find('.dropdown-menu').stop().slideUp(300, easing);
+// 		// 	});
+// 		// },
+// 		redQ_small_submenu: function() {
+// 			var sel = $('li.dropdown ul.sub-menu li.dropdown');
+// 			sel.addClass('has-caret');
+// 			sel.append('<span class="sub-caret fa fa-caret-right"></span>');
 
-			// var caret = $('.has-caret').on('click', function(e) {
-			// 	e.preventDefault();
-			// 	console.log('work');
-			// 	$(this).find('.sub-menu').css('display', 'block');
-			// });
-		},
-		redQ_navbar_toggle: function() {
-			// $('.navbar-toggle').on('click', function() {
-			// 	console.log('hello');
-			// 	$('.collapse.navbar-collapse').toggleClass('in');
-			// });
-		},
-	};
+// 			// var caret = $('.has-caret').on('click', function(e) {
+// 			// 	e.preventDefault();
+// 			// 	console.log('work');
+// 			// 	$(this).find('.sub-menu').css('display', 'block');
+// 			// });
+// 		},
+// 		redQ_navbar_toggle: function() {
+// 			// $('.navbar-toggle').on('click', function() {
+// 			// 	console.log('hello');
+// 			// 	$('.collapse.navbar-collapse').toggleClass('in');
+// 			// });
+// 		},
+// 	};
 
-	RedQ.redQ_init();
+// 	RedQ.redQ_init();
 
-})(jQuery);
+// })(jQuery);
 
 $(document).ready(function() {
 

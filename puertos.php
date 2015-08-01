@@ -10,7 +10,7 @@
 								<i class="fa fa-fighter-jet"></i>
 							</div>
 							<h2 class="counter" data-from="0" data-to="134" data-speed="2500"></h2>
-							<h4>TRASLADOS AÉREOS</h4>
+							<h4><?= $text['count_1'] ?></h4>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -19,7 +19,7 @@
 								<i class="fa fa-ship"></i>
 							</div>
 							<h2 class="counter" data-from="0" data-to="392" data-speed="2500"></h2>
-							<h4>TRASLADOS MARÍTIMOS</h4>
+							<h4><?= $text['count_2'] ?></h4>
 						</div>
 					</div>
 					<div class="col-md-4">
@@ -28,7 +28,7 @@
 								<i class="fa fa-send-o"></i>
 							</div>
 							<h2 class="counter" data-from="0" data-to="275" data-speed="2500"></h2>
-							<h4>SEGUIMIENTOS</h4>
+							<h4><?= $text['count_3'] ?></h4>
 						</div>
 					</div>
 				</div>

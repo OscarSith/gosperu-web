@@ -52,10 +52,10 @@
       }
   });
   $(".cayman-slider").owlCarousel({
-    navigation : false,
+    navigation : true,
     slideSpeed : 600,
     pagination : false,
-    autoHeight:false,
+    autoHeight: false,
     autoPlay: true,
     addClassActive : true,
     navigationText: false,

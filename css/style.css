@@ -2072,12 +2072,12 @@ ul.social-icons li i:hover {
 	-webkit-animation:flipInX 3s ease-in-out 700ms both;
 	animation:flipInX 3s ease-in-out 700ms both;
 }
-.cayman-slider .slider-content-style1 h2::before,.cayman-slider .slider-content-style1 h2::after {
+/*.cayman-slider .slider-content-style1 h2::before,.cayman-slider .slider-content-style1 h2::after {
 	content:' ― ';
 	font-weight:200;
-}
+}*/
 .cayman-slider .slider-content-style1 {
-	padding:235px 0px 100px;
+	padding:200px 0px 100px;
 	line-height:1.4;
 	color:#fff;
 	z-index:1000;
