@@ -23,7 +23,6 @@
 <script src="js/bootstrap.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/parallax.js"></script>
-<script src="js/animheader.js"></script>
 <?php if ($page == 'servicios.php'): ?>
 <script>
   $('#sidebar').affix({
@@ -52,21 +51,21 @@
       }
   });
   $(".cayman-slider").owlCarousel({
-    navigation : true,
+    navigation : false,
     slideSpeed : 600,
     pagination : false,
     autoHeight: false,
     autoPlay: true,
     addClassActive : true,
     navigationText: false,
-    transitionStyle : "fade",
+    // transitionStyle : "fade",
     singleItem: true
     // "singleItem:true" is a shortcut for:
-    // items : 1, 
-    // itemsDesktop : false,
+    // items : 4, 
+    // itemsDesktop : true,
     // itemsDesktopSmall : false,
     // itemsTablet: false,
-    // itemsMobile : false
+    // itemsMobile : true
   });
 </script>
 <?php elseif ($page == 'contacto.php') : ?>
@@ -103,6 +102,8 @@
   // Para que al cargar la web se ejecute el countTo
   $('.counter').scroll()
 </script>
+<?php elseif ($page == 'index.php' || $page == ''): ?>
+  <script src="js/animheader.js"></script>
 <?php endif ?>
 <script src="js/scripts.js"></script>
 </body>
