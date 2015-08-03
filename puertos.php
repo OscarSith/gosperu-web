@@ -46,13 +46,13 @@
 						<a href="img/ASIA/BUSAN-COREA.jpg" class="gallery">
 							<img src="img/ASIA/BUSAN-COREA.jpg" alt=""/>
 						</a>
-						<p>Busan - COREA</p>
+						<p>Busan - KOREA</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/delian-china.jpg">
 							<img src="img/ASIA/delian-china.jpg" alt=""/>
 						</a>
-						<p>Delian - CHINA</p>
+						<p>Dalian - CHINA</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/Fuzhou-china.jpg">
@@ -98,7 +98,7 @@
 						<a class="gallery" href="img/ASIA/shangai-china.jpg">
 							<img src="img/ASIA/shangai-china.jpg" alt=""/>
 						</a>
-						<p>Shangai - CHINA</p>
+						<p>Shanghai - CHINA</p>
 					</article>
 					<article class="col-md-3">
 						<a class="gallery" href="img/ASIA/Shantou-china.jpg">
@@ -208,7 +208,7 @@
 						<a class="gallery" href="img/NORTE AMERICA/Los-angeles-ESTADOS-UNIDOS.jpg">
 							<img src="img/NORTE AMERICA/Los-angeles-ESTADOS-UNIDOS.jpg" alt=""/>
 						</a>
-						<p>Los angeles - ESTADOS UNIDOS</p>
+						<p>Los Ángeles - ESTADOS UNIDOS</p>
 					</article>
 				</div>
 				<div class="item">
