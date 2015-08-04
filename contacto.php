@@ -34,7 +34,7 @@
 			<address>
 				<ul class="list-unstyled">
 					<li>
-						<i class="fa fa-map-marker fa-lg"></i> Cal. Martín de Murúa 250 Of. 201 San Miguel - Lima, Perú
+						<i class="fa fa-map-marker fa-lg"></i> Cal. Martín de Murúa 250 Of. 102 San Miguel - Lima, Perú
 						<br><br>
 					</li>
 					<li>
