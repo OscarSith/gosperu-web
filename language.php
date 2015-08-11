@@ -99,8 +99,8 @@ $lang['es'] = [
 						<li>Almacenamiento</li>
 						<li>Distribución.</li>
 						<li>Aduanas.</li>',
-	'serv05_title' => 'TRACEABILITY SHIPMENTS',
-	'serv05_text' => 'Grand Ocean Shipping SAC not only will provide monitoring and status of shipments, but has specialized in the traceability of the same team, which will facilitate a solution to a problem that may arise in the logistics chain.',
+	'serv05_title' => 'TRAZABILIDAD DE LOS EMBARQUES',
+	'serv05_text' => 'Grand Ocean Shipping SAC no solo le brindará el seguimiento y status de los embarques, sino que tiene un equipo especializado en la trazabilidad de los mismos, el cual va a permitir dar una solución ate un problema que pueda suscitarse en la cadena logística.',
 
 	'count_1' => 'TRASLADOS AÉREOS',
 	'count_2' => 'TRASLADOS MARÍTIMOS',
